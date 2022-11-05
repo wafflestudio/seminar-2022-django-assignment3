@@ -1,2 +1,3 @@
-# seminar-2022-django-assignment3
-2022년 세미나 Django Assignment 3
+# Assignment 3
+
+제출기한: 22.11.14(일) 23:59:59
