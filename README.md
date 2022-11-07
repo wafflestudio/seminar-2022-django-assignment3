@@ -1,36 +1,11 @@
 # Assignment 3
 
-제출기한: 22.11.14(일) 23:59:59
+기한: 22.11.14(일) 23:59:59
 
-Project 1 위에 해당 기능을 추가해주세요.
+## SOLID Code review
+과제 제출표 기준, 본인 윗 분의 Project 1을 SOLID 원칙에 입각하여 코드 리뷰합니다. 
 
-## Notification
+[과제 제출표](https://docs.google.com/spreadsheets/d/1Of5sGYHasMMtOVZgUQBF5aVVtHH0AHllrrTuVOCJJaM/edit#gid=0)
 
-The large blog service에 알림 기능이 추가됩니다. 알림이 생성되는 경우는 다음 2가지입니다.
-
-1. 유저가 작성한 글에 댓글이 달렸을 때, 작성자에게 추가됨.
-2. 댓글이 작성되었을 때, 해당 글에 댓글을 달았던 모두에게 추가됨.
-
-API
-```
-GET (임의의 적절한 url) list posts
-* 해당 알림을 클릭하였을 때 해당 글로 이동하기 위해, 알림에 Post의 id가 존재해야 함.
-```
-
-### 추가 점수: 대량 notification 대응
-(꼭 구현할 필요는 없지만, 구현시 추가 점수가 부여됩니다. 구현했을시 PR 제목에 언급해주세요.)
-
-<details>
-<summary>여기를 클릭하기!</summary>
-만약 n명이 해당 Post에 댓글을 작성하였을 경우, 약 n개의 알림을 생성해야 하므로 해당 글에 댓글을 달 때 꽤 오랜 시간이 걸릴 수 있습니다.
-
-글에 댓글을 작성한 작성자가 늘어나더라도, 댓글을 다는 시간이 늘어나지 않도록 하려면 어떻게 해야 할까요?
-
-해결할 방법을 고민해보고 PR 내용에 적어주세요. (실제로 코드에 적용되면 더 좋습니다.)
-</details>
-
-### 안내
-- 제출: repository root에 django project 업로드
-  - requirements.txt 작성할 것
-
-
+## 제출
+따로 제출은 없고, 직접 레포 들어가 코드 리뷰를 확인할 예정입니다.
